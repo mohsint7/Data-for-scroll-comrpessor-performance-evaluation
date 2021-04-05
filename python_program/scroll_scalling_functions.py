@@ -384,7 +384,7 @@ def stacked_plot(n_plots,n_curves,ydata,xdata,ylabel,xlabel,limits,legend_param,
 
 
             #ax[i].grid()
-            ax[i].plot(xdata, ydata2, color=color.next(), linestyle=linestyle.next(),label=label)
+            ax[i].plot(xdata, ydata2, color=next(color), linestyle=next(linestyle),label=label)
 
 
         wrap_label_string = '\n'.join(textwrap.wrap(ylabel[i],15))

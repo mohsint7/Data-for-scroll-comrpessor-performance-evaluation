@@ -37,7 +37,7 @@ import warnings
 import os
 
 
-import wx
+#import wx
 from PDSim.scroll.plots import ScrollAnimForm
 
 from CoolProp import State
@@ -229,7 +229,9 @@ if __name__=='__main__':
 
 
     df=pd.DataFrame(data,index=hs2)
-    df.to_excel(excel_writer = path+"/geometry.xlsx", sheet_name='Sheet1',startcol=0)
+
+    #uncomment to create excell file
+    #df.to_excel(excel_writer = path+"/geometry.xlsx", sheet_name='Sheet1',startcol=0)
 
 
 

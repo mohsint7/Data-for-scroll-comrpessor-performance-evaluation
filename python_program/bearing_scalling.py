@@ -130,7 +130,7 @@ def f(x,design,W,eta_0,omega,goal,key):
 #####################################
 if __name__=='__main__':
 
-    Filepath=''
+    Filepath='E:\OneDrive - Oklahoma A and M System\Documents\Phd\Scroll comp scalling\cases_final\case 1'
 
     Filename='/forces'
 
